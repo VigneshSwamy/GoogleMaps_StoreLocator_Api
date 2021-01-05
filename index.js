@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const Store = require("./Models/storedata");
 
 mongoose.connect(
-  "mongodb+srv://viswa2_maps:MSHl55jgGtdJwchw@cluster0.64smb.mongodb.net/storeDB?retryWrites=true&w=majority",
+  "<MongoDB_URL_Here>",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
